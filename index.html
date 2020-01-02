@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <title>Uso de lista en HTML</title>
+ </head>
+
+ <body>
+  <form method="post" action="miservidor.php">
+    <div>
+      <label for="cp">Código postal:</label>
+      <input id="cp" type=”number”>
+    </div>
+    <br>
+    <br>
+    <div>
+      <label for="sat">Nivel de satisfacion con el producto:</label>
+      <select id="sat">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+       </select>
+    </div>
+    <br>
+    <br>
+    <div>
+      <label for="email">Email:</label>
+      <input id="email" type=”text”>
+    </div>
+    <br>
+    <br>
+    <div>
+       <label for="ppos">Puntos positivos del producto:</label>
+       <textarea id="ppos" value="Menciona los puntos positivos del producto comprado aqui..."></textarea>
+    </div>
+    <br>
+    <br>
+    <div>
+       <label for="pneg">Puntos negativos del producto:</label>
+       <textarea id="ppos" value="Menciona los puntos negativos del producto comprado aqui..."></textarea>
+    </div>
+    <br>
+    <br>
+    <div>
+      <label for="att">¿Que te parecio la calidad de atención al cliente?:</label>
+      <select id="att">
+        <option value="exelente">exelente</option>
+        <option value="bueno">bueno</option>
+        <option value="regular">regular</option>
+        <option value="pésimo">pésimo</option>
+       </select>
+    </div>
+    <br>
+    <br>
+     <div>
+      <label for="var">¿Que te parecio la variedad de productos que tenemos?:</label>
+        <input name="var" type="radio" value="E">Exelente
+        <input name="var" type="radio" value="B">Bueno
+        <input name="var" type="radio" value="R">Regular
+        <input name="var" type="radio" value="P">Pésimo
+       </div>
+       <br>
+    <br>
+    <input type="submit" value="Enviar" class="btn btn-primary"> 
+ </form>
+ </body>
+</html>
